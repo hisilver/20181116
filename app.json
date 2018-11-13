@@ -1,0 +1,56 @@
+{
+  "pages":[
+      "pages/third/third",
+    "pages/log/log",
+   "pages/test/test",
+    "pages/index/index"
+
+
+  ],
+  "window":{
+    "enablePullDownRefresh":true,
+    "onShareAppMessage":true,
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "年宝日记",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#D53C3E",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "position":"top",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"indexPage",
+        "iconPath":"pages/images/wait.png",
+        "selectedIconPath":"pages/images/left.png"
+      },
+      {
+        "pagePath":"pages/log/log",
+        "text":"天气",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/wait.png"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "third",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/wait.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "test",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/wait.png"
+      }
+      ]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug":true
+}

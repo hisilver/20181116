@@ -1,0 +1,12 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<image src="{{imgurl}}" style='width:100%;'></image>
+
+
+
+
+<template name="person">
+  <view><text>姓名:{{name}}</text></view>
+  <view><text>年龄:{{age}}</text></view>
+  <view><text>性别:{{sex}}</text></view>
+</template>

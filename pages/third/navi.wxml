@@ -1,0 +1,5 @@
+<view style='flex-direction:row;display:flex;'>
+  <view>新闻</view>
+  <view>图片</view>
+  <view>音乐</view>
+</view>

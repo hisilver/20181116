@@ -1,0 +1,14 @@
+/* pages/third/third.wxss */
+#item-1{
+  background-color: yellow;
+}
+#item-2{
+ background-color: red; 
+}
+.haibao{
+  text-align: center;
+  width: 100%;
+}
+.slide-image{
+  width: 100%;
+}
